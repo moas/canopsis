@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with all auto instructions 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light instruction-icon--completed"
+    style="font-size: 22px;"
+  >
+    assignment
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with all auto instructions 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with auto instruction failed 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light instruction-icon--failed"
+    style="font-size: 22px;"
+  >
+    assignment
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with auto instruction failed 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with auto instruction running 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light instruction-icon--failed"
+    style="font-size: 22px;"
+  >
+    assignment
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with auto instruction running 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with instruction 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light"
+    style="font-size: 22px;"
+  >
+    $vuetify.icons.manual_instruction
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with instruction 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with manual instruction running 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light blinking instruction-icon--dotted"
+    style="font-size: 22px;"
+  >
+    $vuetify.icons.manual_instruction
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with manual instruction running 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with manual instruction waiting result 1`] = `
+<span
+  class="v-tooltip v-tooltip--top"
+>
+  <transition-stub
+    name="slide-y-reverse-transition"
+  />
+  <i
+    aria-hidden="true"
+    class="v-icon instruction-icon material-icons theme--light instruction-icon--failed"
+    style="font-size: 22px;"
+  >
+    $vuetify.icons.manual_instruction
+  </i>
+</span>
+`;
+
+exports[`alarms-list-row-icon Renders \`alarms-list-row-icon\` with manual instruction waiting result 2`] = `
+<div
+  class="v-tooltip__content"
+  style="left: 0px; max-width: auto; opacity: 0; top: 12px; z-index: 0; display: none;"
+>
+  <span
+    class="pre-wrap"
+  />
+</div>
+`;

@@ -1,0 +1,12 @@
+# amqp2engines.conf for a CAT Go stack
+
+#
+# CAT additional components.
+#
+
+[engine:snmp]
+routing_keys = #
+exchange_name = canopsis.snmp
+
+[engine:kpi]
+beat_interval = 3600

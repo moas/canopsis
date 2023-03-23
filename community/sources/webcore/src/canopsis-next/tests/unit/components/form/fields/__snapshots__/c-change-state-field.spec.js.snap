@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-change-state-field Renders \`c-change-state-field\` after validate correctly 1`] = `
+<div
+  class="mt-3"
+>
+  <div
+    class="layout row"
+  >
+    <state-criticity-field-stub
+      statevalues="[object Object]"
+      value="2"
+    />
+  </div>
+  <div
+    class="layout mt-4 row"
+  >
+    <div
+      class="v-input v-textarea v-text-field v-input--has-state theme--light error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+        >
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              aria-hidden="true"
+              class="v-label theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              Note
+            </label>
+            <textarea
+              aria-label="Note"
+              name="changeState.output"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                The field is required
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`c-change-state-field Renders \`c-change-state-field\` with allowed change severity to info correctly 1`] = `
+<div
+  class="mt-3"
+>
+  <div
+    class="layout row"
+  >
+    <state-criticity-field-stub
+      statevalues="[object Object]"
+      value="0"
+    />
+  </div>
+  <div
+    class="layout mt-4 row"
+  >
+    <div
+      class="v-input v-textarea v-text-field v-input--is-label-active v-input--is-dirty theme--light"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+        >
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              aria-hidden="true"
+              class="v-label v-label--active theme--light"
+              style="left: 0px; position: absolute;"
+            >
+              Custom label
+            </label>
+            <textarea
+              aria-label="Custom label"
+              name="customLabelFieldName.output"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`c-change-state-field Renders \`c-change-state-field\` with custom label correctly 1`] = `
+<div
+  class="mt-3"
+>
+  <div
+    class="layout row"
+  >
+    <state-criticity-field-stub
+      statevalues="[object Object]"
+      value="0"
+    />
+  </div>
+  <div
+    class="layout mt-4 row"
+  >
+    <div
+      class="v-input v-textarea v-text-field v-input--is-label-active v-input--is-dirty theme--light"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+        >
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              aria-hidden="true"
+              class="v-label v-label--active theme--light"
+              style="left: 0px; position: absolute;"
+            >
+              Note
+            </label>
+            <textarea
+              aria-label="Note"
+              name="customLabelFieldName.output"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`c-change-state-field Renders \`c-change-state-field\` with errors correctly 1`] = `
+<div
+  class="mt-3"
+>
+  <div
+    class="layout row"
+  >
+    <state-criticity-field-stub
+      statevalues="[object Object]"
+      value="0"
+    />
+  </div>
+  <div
+    class="layout mt-4 row"
+  >
+    <div
+      class="v-input v-textarea v-text-field v-input--has-state v-input--is-label-active v-input--is-dirty theme--light error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+        >
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              aria-hidden="true"
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              Note
+            </label>
+            <textarea
+              aria-label="Note"
+              name="customName.output"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                Output error
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`c-change-state-field Renders \`c-change-state-field\` without allowed change severity to info correctly 1`] = `
+<div
+  class="mt-3"
+>
+  <div
+    class="layout row"
+  >
+    <state-criticity-field-stub
+      statevalues="[object Object]"
+      value="0"
+    />
+  </div>
+  <div
+    class="layout mt-4 row"
+  >
+    <div
+      class="v-input v-textarea v-text-field v-input--is-label-active v-input--is-dirty theme--light"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+        >
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              aria-hidden="true"
+              class="v-label v-label--active theme--light"
+              style="left: 0px; position: absolute;"
+            >
+              Custom label
+            </label>
+            <textarea
+              aria-label="Custom label"
+              name="changeState.output"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

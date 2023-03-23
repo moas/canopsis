@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-table-pagination Renders \`c-table-pagination\` with custom props 1`] = `
+<div
+  class="layout align-center"
+>
+  <div
+    class="flex xs10"
+  >
+    <c-pagination-stub
+      limit="10"
+      page="3"
+      total="100"
+      type="bottom"
+    />
+  </div>
+  <div
+    class="spacer"
+  />
+  <div
+    class="flex xs2"
+  >
+    <c-records-per-page-field-stub
+      class="pa-0"
+      hide-details="hide-details"
+      value="10"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`columns Renders \`columns\` with custom props 1`] = `
+<widget-settings-item-stub
+  title="Custom label"
+>
+  <c-columns-with-template-field-stub
+    templates=""
+    type="alarm"
+    value=""
+    with-color-indicator="true"
+    with-html="true"
+  />
+</widget-settings-item-stub>
+`;
+
+exports[`columns Renders \`columns\` with default and required props 1`] = `
+<widget-settings-item-stub
+  title="Custom label"
+>
+  <c-columns-with-template-field-stub
+    templates=""
+    type="alarm"
+    value=""
+  />
+</widget-settings-item-stub>
+`;
